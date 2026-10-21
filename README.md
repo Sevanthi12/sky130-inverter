@@ -77,8 +77,6 @@ plot V(in) V(out)
 **Result:** The output stays at 1.8 V while the input is low and switches to 0 V
 at around 0.4 µs, when the input is about 0.8 V. So the inverter works correctly.
 
-![simulation](Resources/Lab1/xschem_sim.jpeg)
-
 ---
 
 ## 4. Layout in Magic
