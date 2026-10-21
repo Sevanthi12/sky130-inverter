@@ -91,9 +91,7 @@ cd ~/Desktop/inverter/mag
 magic -d X11 inverter
 ```
 
-DRC result: **0 errors**
 
-![layout](Resources/Lab1/mag_layout.jpeg)
 
 Extracting the layout netlist:
 ```
