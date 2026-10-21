@@ -51,11 +51,11 @@ I checked that Xschem loads the SKY130 library by opening the `sky130_tests/top.
 PMOS source and body go to `vdd`, NMOS source and body go to `vss`.
 Pins: `in`, `out`, `vdd`, `vss`.
 
-![schematic](Resources/Lab1/xschem_inv.jpeg)
+![schematic]([Resources/Lab1/xschem_inv.jpeg](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xschem_inv.jpeg))
 
 I then created a symbol for the inverter:
 
-![symbol](Resources/Lab1/xschem_sym.jpeg)
+![symbol]([Resources/Lab1/xschem_sym.jpeg](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xshem_sym.jpeg))
 
 ---
 
@@ -72,7 +72,7 @@ plot V(in) V(out)
 .endc
 ```
 
-![testbench](Resources/Lab1/xschem_tb.jpeg)
+![testbench](Resources/Lab1/[xschem_tb.jpeg](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xshem_tb.jpeg))
 
 **Result:** The output stays at 1.8 V while the input is low and switches to 0 V
 at around 0.4 µs, when the input is about 0.8 V. So the inverter works correctly.
