@@ -37,7 +37,7 @@ export PDK=sky130A
 
 I checked that Xschem loads the SKY130 library by opening the `sky130_tests/top.sch` example.
 
-![xschem test](Resources/Lab1/xschem_test.png)
+![xschem test](Resources/Lab1/xschem_test.jpeg)
 
 ---
 
@@ -51,11 +51,11 @@ I checked that Xschem loads the SKY130 library by opening the `sky130_tests/top.
 PMOS source and body go to `vdd`, NMOS source and body go to `vss`.
 Pins: `in`, `out`, `vdd`, `vss`.
 
-![schematic](Resources/Lab1/xschem_inv.png)
+![schematic](Resources/Lab1/xschem_inv.jpeg)
 
 I then created a symbol for the inverter:
 
-![symbol](Resources/Lab1/xschem_sym.png)
+![symbol](Resources/Lab1/xschem_sym.jpeg)
 
 ---
 
@@ -72,12 +72,12 @@ plot V(in) V(out)
 .endc
 ```
 
-![testbench](Resources/Lab1/xschem_tb.png)
+![testbench](Resources/Lab1/xschem_tb.jpeg)
 
 **Result:** The output stays at 1.8 V while the input is low and switches to 0 V
 at around 0.4 µs, when the input is about 0.8 V. So the inverter works correctly.
 
-![simulation](Resources/Lab1/xschem_sim.png)
+![simulation](Resources/Lab1/xschem_sim.jpeg)
 
 ---
 
@@ -95,7 +95,7 @@ magic -d X11 inverter
 
 DRC result: **0 errors**
 
-![layout](Resources/Lab1/mag_layout.png)
+![layout](Resources/Lab1/mag_layout.jpeg)
 
 Extracting the layout netlist:
 ```
@@ -116,7 +116,7 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../xschem/inverter.spice inv
 
 Result: **Circuits match uniquely.**
 
-![lvs](Resources/Lab1/lvs.png)
+![lvs](Resources/Lab1/lvs.jpeg)
 
 ---
 
