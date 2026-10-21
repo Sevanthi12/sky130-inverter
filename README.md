@@ -55,7 +55,7 @@ Pins: `in`, `out`, `vdd`, `vss`.
 
 I then created a symbol for the inverter:
 
-![symbol]([Resources/Lab1/xschem_sym.jpeg](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xshem_sym.jpeg))
+![symbol](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xshem_sym.jpeg)
 
 ---
 
