@@ -116,7 +116,7 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../xschem/inverter.spice inv
 
 Result: **Circuits match uniquely.**
 
-![lvs](Resources/Lab1/lvs.jpeg)
+![lvs](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/lvs_output.png)
 
 ---
 
