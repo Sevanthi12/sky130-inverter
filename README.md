@@ -37,7 +37,7 @@ export PDK=sky130A
 
 I checked that Xschem loads the SKY130 library by opening the `sky130_tests/top.sch` example.
 
-![xschem test](resources/Lab1/xschem_test.jpeg)
+![xschem test](https://github.com/Sevanthi12/sky130-inverter/blob/main/resources/lab1/xshem_test.jpeg)
 
 ---
 
