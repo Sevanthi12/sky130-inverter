@@ -1,0 +1,6 @@
+** sch_path: /home/disha/Desktop/inverter/xschem/inverter.sch
+.SUBCKT inverter vdd in out vss
+*.PININFO in:I vss:B vdd:B out:O
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.18 W=3 nf=3
+XM3 out in vss vss sky130_fd_pr__nfet_01v8 L=0.18 W=4.5 nf=3
+.ENDS
